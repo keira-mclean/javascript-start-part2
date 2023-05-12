@@ -132,6 +132,6 @@ for (let i = 0; i < numbersSquaredArray.length; i++) {
 
 const starWarsCharactersArray = ["Yoda", 'Darth Vader', 'Leia Organa', 'Luke Skywalker', 'Anakin Skywalker'];
 
-let name = starWarsCharactersArray.indexOf("Luke Skywalker");
+let key = starWarsCharactersArray.indexOf("Luke Skywalker");
 
-console.log(name+" Luke Skywalker");
+console.log(key,starWarsCharactersArray[key]);
